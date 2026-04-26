@@ -7,8 +7,7 @@ import { cn } from '@/lib/utils'
 
 // API key is kept server-side in .env.local — never exposed to the browser.
 // All Gemini calls go through /api/chat (see app/api/chat/route.ts).
-const CHAT_API_URL = '/api/chat'
-
+const GEMINI_API_KEY = 'AIzaSyBI6dHJGo3te9OkLuZEsgFWsBCJ5H7RYrM'
 interface Message {
   role: 'user' | 'bot'
   text: string
